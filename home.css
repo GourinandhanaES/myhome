@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#container1{
+    width: 100%;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    background-color: #dfccb4;
+    padding: 0px;
+}
+.search{
+    background-color: white;
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.search:hover{
+    background-color: #dfccb4;
+    box-shadow: 3px 3px 7px black;
+}
+.listItems{
+    list-style: none;
+    display: inline;
+    margin: 0px 30px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.links:hover {
+    color: rgb(255, 94, 0);
+}
+#home{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231006/pngtree-beige-living-room-background-with-scandi-boho-interior-design-3d-rendering-image_13528806.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+.subHead{
+    width: 600px;
+    height: 210px;
+    background: rgba(245, 244, 242, 0.582);
+    border-radius: 1px;
+    box-shadow: 5px 5px 10px rgba(236, 228, 195, 0.1);
+    margin-left: 385px;
+    }
+.subHead h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.subHead p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+.subHead .button {
+    padding: 10px 20px;
+    background-color: #6b4f3e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.subHead .button:hover {
+    background-color: #c5a880;
+}
+.font1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.font2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutBody{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    background-color: #dfc7a7;
+}
+.img1{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 20rem;
+    border-color: white;
+    border-style: double;
+    border-width: 10px;
+}
+.aboutContent{
+    font-size: 20px;
+    text-align: justify;
+}
+.font3{
+    color: #0c0c0c;
+    margin-left: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.font4{
+    color: #421b02;
+    margin-left: 186px;
+    font-size: xx-large;
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.font5{
+    color: #a54102;
+    margin-left: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 20px;
+    text-align: justify;
+    color: #6b3e22;
+}
+.font7{
+    color: rgb(247, 232, 206);
+    margin-left: 200px;
+    font-size: 70px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ddc3a2;
+}
+.img2{
+    margin-left: 150px;
+}
+.img3{
+    margin-left: 40px;
+}
+.img4{
+    margin-left: -40px;
+}
+.img5{
+    margin-left: 150px;
+    margin-top: -50px;
+}
+.img6{
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.img7{
+    margin-top: -50px;
+    margin-left: -40px;
+}
+.img2:hover{
+    box-shadow: 3px 3px 10px 3px black;
+}
+.img2:active{
+    opacity: 0.5;
+}
+.img3:hover{
+    box-shadow: 3px 3px 10px 3px black;
+}
+.img3:active{
+    opacity: 0.5;
+}
+.img4:hover{
+    box-shadow: 3px 3px 10px 3px black;
+}
+.img4:active{
+    opacity: 0.5;
+}
+.img5:hover{
+    box-shadow: 3px 3px 10px 3px black;
+}
+.img5:active{
+    opacity: 0.5;
+}
+.img6:hover{
+    box-shadow: 3px 3px 10px 3px black;
+}
+.img6:active{
+    opacity: 0.5;
+}
+.img7:hover{
+    box-shadow: 3px 3px 10px 3px black;
+}
+.img7:active{
+    opacity: 0.5;
+}
+.category{
+    color: #722f05;
+    font-style: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+#themes{
+    background-color: #c5a880;
+}
+.col1{
+    width: 150px;
+    height: 155px;
+    background-color: #5a2c02;
+    border: solid transparent;
+    float: left;
+    margin: 20px 8px;
+}
+.col1:hover{
+    box-shadow: 3px 3px 10px 3px #5c2401;
+}
+.col1:active{
+    opacity: 0.5;
+}
+.img8{
+    width: 100%;
+    height: 150px;
+}
+#caption{
+    background-image: url(https://your.rentals/wp-content/uploads/2023/08/decor-blob-thumbnail.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    margin-top: 165px;
+    height: 600px;
+}
+.subHead2{
+    width: 720px;
+    height: 210px;
+    background: rgba(248, 228, 187, 0.582);
+    border-radius: 1px;
+    box-shadow: 5px 5px 10px rgba(236, 228, 195, 0.1);
+    margin-left: 315px;
+    margin-top: 50px;
+    }
+.subHead2 h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.subHead2 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+.subHead2 .button {
+    padding: 10px 20px;
+    background-color: #6b4f3e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.subHead2 .button:hover {
+    background-color: #c5a880;
+}
+.font1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.font2{
+    font-family: 'Times New Roman', Times, serif;
+}
+#footer{
+    background-color: #c5a880;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/033/349/606/small_2x/wall-empty-inside-nature-background-ai-generated-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+.form1{
+    background-color: #f7e1b6;
+    width: 300px;
+    height: 70px;
+    margin-left: 620px;
+    margin-top: -30px;
+}
+.form2{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    margin-left: 640px;
+    margin-top: -170px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form3{
+    width: 400px;
+    height: 90px;
+    margin-top: -160px;
+    margin-left: 330px;
+    background-color: #6b4f3e;
+    color: #dfccb4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    font-size: large;
+}
+.iconCollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,rgb(114, 52, 2), rgb(230, 126, 7), rgb(235, 133, 38));
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+.footImg{
+    margin-top: -70px;
+    border-radius: 20rem;
+    margin-left: 100px;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
